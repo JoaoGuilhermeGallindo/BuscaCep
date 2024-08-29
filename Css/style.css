@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://thumbs.dreamstime.com/z/fundo-do-correio-12578668.jpg);
+    background-size: cover;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    /*Padding muda a distancia das bordas*/
+    padding: 20px;
+    /*Gap muda a distancia entre as colunas*/
+    gap: 5px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: cadetblue;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+input {
+    outline: none;
+}
+input {
+    
+    width: fit-content; /* Certifique-se de que o campo preenche o contêiner pai */
+    padding: 12px 15px; /* Ajuste o padding conforme necessário */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Ajuste o tamanho da fonte para melhor legibilidade */
+    box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura total */
+    line-height: 1.5;
+    outline: none;
+    
+
+}
